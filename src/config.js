@@ -1,3 +1,4 @@
+/*
 import firebase from 'firebase'
 export const appName = 'react-adv-77ce1';
 export const fireBaseConfig = {
@@ -8,4 +9,4 @@ export const fireBaseConfig = {
     storageBucket: `${appName}.appspot.com`,
     messagingSenderId: "865335124104"
 };
-firebase.initializeApp(fireBaseConfig)
+firebase.initializeApp(fireBaseConfig)*/

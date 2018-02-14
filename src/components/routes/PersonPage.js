@@ -4,7 +4,6 @@ import {addPerson} from '../../ducks/people'
 import AddFormPeople from '../people/AddFormPeople'
 
 class PersonPage extends Component {
-
     render() {
         return (
             <div>
@@ -14,5 +13,4 @@ class PersonPage extends Component {
         )
     }
 }
-
-export default  connect(null, addPerson)(PersonPage)
+export default  connect(null, {addPerson})(PersonPage)

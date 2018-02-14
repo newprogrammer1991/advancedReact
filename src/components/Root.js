@@ -8,7 +8,6 @@ class Root extends Component {
         return (
             <div>
                 <Route path='/admin' component={AdminPage}/>
-                <Route path='/auth' component={AuthPage}/>
                 <Route path='/person' component={PersonPage}/>
             </div>
         )
